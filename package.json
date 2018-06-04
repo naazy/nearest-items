@@ -1,0 +1,26 @@
+{
+  "name": "nearest-items",
+  "version": "1.0.0",
+  "description": "Finding the nearest items to a user. The main two factors in the search are: - **Text match**: the user types a word or phrase that they want to find, and the search returns items that match this. - **Location**: the user indicates their location (through geolocation or through typing in the location search box) and the search returns items near the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/tape/bin/tape ./node_modules/tape/bin/tape ./tests/*/* ",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "naazy",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "better-sqlite3": "^4.1.0",
+    "hapi": "^17.4.0",
+    "nodemon": "^1.17.3",
+    "tape": "^4.9.0"
+  }
+}
